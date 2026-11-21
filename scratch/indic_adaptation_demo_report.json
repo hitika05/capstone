@@ -1,0 +1,66 @@
+{
+  "title": "VoiceDesign AI - Indic Language Adaptation Prototype",
+  "status": "Prototype evaluation; fine-tuned model integration pending",
+  "cases": [
+    {
+      "label": "Hindi - tailoring",
+      "prompt": "शिव टेलर्स के लिए इंस्टाग्राम पोस्ट बनाएं। सेवाएं: कपड़ों की सिलाई, अल्टरशन और ब्लाउज डिजाइन। नीले और सुनहरे रंग रखें। CTA: अभी ऑर्डर करें।",
+      "baseline": {
+        "businessName": "CTA",
+        "services": [],
+        "cta": "",
+        "visualTheme": "Generic promotional image"
+      },
+      "indic_adapted": {
+        "businessName": "शिव टेलर्स",
+        "services": [
+          "कपड़ों की सिलाई",
+          "अल्टरशन",
+          "ब्लाउज डिजाइन"
+        ],
+        "cta": "अभी ऑर्डर करें",
+        "visualTheme": "A professional Indian tailoring studio with a sewing machine, colorful fabric rolls, measuring tape, neatly arranged cloth samples, cutting table and warm boutique lighting, detailed commercial photography, no generic clothing-store-only scene"
+      }
+    },
+    {
+      "label": "Marathi - homemade food",
+      "prompt": "सह्याद्री कॅटरिंग साठी इंस्टाग्राम पोस्ट बनवा. सेवा: घरगुती जेवण, डबा सेवा आणि पार्टी कॅटरिंग. हिरवा आणि केशरी रंग वापरा. CTA: आजच ऑर्डर करा.",
+      "baseline": {
+        "businessName": "CTA",
+        "services": [],
+        "cta": "",
+        "visualTheme": "Generic promotional image"
+      },
+      "indic_adapted": {
+        "businessName": "सह्याद्री कॅटरिंग",
+        "services": [
+          "घरगुती जेवण",
+          "डबा सेवा",
+          "पार्टी कॅटरिंग"
+        ],
+        "cta": "आजच ऑर्डर करा",
+        "visualTheme": "The scene must clearly show the user's exact request: सह्याद्री कॅटरिंग साठी इंस्टाग्राम पोस्ट बनवा. सेवा: घरगुती जेवण, डबा सेवा आणि पार्टी कॅटरिंग. हिरवा आणि केशरी रंग वापरा. CTA: आजच ऑर्डर करा.. High-end commercial photography, cinematic lighting, detailed textures, premium composition, no text, no words, no watermark."
+      }
+    },
+    {
+      "label": "Hindi - aquarium service",
+      "prompt": "ब्लू रीफ एक्वेरियम के लिए पोस्ट बनाएं। सेवाएं: एक्वेरियम सफाई, मछली की देखभाल और पानी की जांच। नीली रोशनी और रंगीन मछलियां दिखाएं। CTA: आज ही संपर्क करें।",
+      "baseline": {
+        "businessName": "CTA",
+        "services": [],
+        "cta": "",
+        "visualTheme": "Generic promotional image"
+      },
+      "indic_adapted": {
+        "businessName": "ब्लू रीफ एक्वेरियम",
+        "services": [
+          "एक्वेरियम सफाई",
+          "मछली की देखभाल",
+          "पानी की जांच"
+        ],
+        "cta": "आज ही संपर्क करें",
+        "visualTheme": "The scene must clearly show the user's exact request: ब्लू रीफ एक्वेरियम के लिए पोस्ट बनाएं। सेवाएं: एक्वेरियम सफाई, मछली की देखभाल और पानी की जांच। नीली रोशनी और रंगीन मछलियां दिखाएं। CTA: आज ही संपर्क करें।. High-end commercial photography, cinematic lighting, detailed textures, premium composition, no text, no words, no watermark."
+      }
+    }
+  ]
+}

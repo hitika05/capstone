@@ -1,0 +1,15 @@
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0
+jiwer>=3.0.0
+transformers>=4.44.0
+torch>=2.3.0
+Pillow>=10.0.0
+deep-translator>=1.11.4
+sounddevice>=0.4.7
+soundfile>=0.12.1
+python-dotenv>=1.0.0
+requests>=2.32.0
+tqdm>=4.66.0

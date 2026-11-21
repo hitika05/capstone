@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Backend runtime files
+backend/generations/
+backend/uploads/
+backend/*.log
+backend/*.sqlite3
+backend/*.sqlite
+backend/*.db
+backend/assets/brand_memory.json
+backend/assets/variant_feedback.jsonl
+
+# Frontend build output
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test and experiment output
+coverage/
+experiments/results/
+experiments/data/
+experiments_v2/results/
+experiments_v2/data/
+experiments_v2/data_seed1/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

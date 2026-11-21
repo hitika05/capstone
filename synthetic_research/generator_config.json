@@ -1,0 +1,19 @@
+{
+  "samples": 100,
+  "languages": [
+    "hindi",
+    "marathi",
+    "english"
+  ],
+  "language_plan_counts": {
+    "hindi": 40,
+    "marathi": 40,
+    "english": 20
+  },
+  "dataset_version": "synthetic-v1",
+  "seed": 42,
+  "synthetic": true,
+  "source_type": "synthetic_benchmark",
+  "generate_images": 0,
+  "refinements": 0
+}

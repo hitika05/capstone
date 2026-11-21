@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+pillow
+numpy
+requests
+python-dotenv
+deep-translator
+huggingface-hub
+SpeechRecognition
+pydub
+transformers
+firebase-admin
